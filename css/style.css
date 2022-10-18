@@ -124,6 +124,7 @@ body {
     flex: 0 0 130px;
   }
 }
+
 .menu-header__list {
   display: flex;
   gap: 40px;
@@ -467,30 +468,6 @@ body {
   letter-spacing: 5px;
   cursor: pointer;
 }
-.blocks-test__block-3 {
-  font-size: 25px;
-  font-weight: 900;
-  text-align: center;
-  padding: 30px;
-  box-shadow: 5px 5px 10px 5px black;
-  margin-bottom: 50px;
-  background: rgb(157, 213, 58);
-  background: linear-gradient(135deg, rgb(157, 213, 58) 0%, rgb(161, 213, 79) 50%, rgb(128, 194, 23) 51%, rgb(124, 188, 10) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#9dd53a", endColorstr="#7cbc0a",GradientType=1 );
-  border-radius: 25px;
-}
-.blocks-test__block-3 p {
-  margin-bottom: 30px;
-}
-.blocks-test__block-3 li {
-  margin-bottom: 35px;
-}
-.blocks-test__block-3 a {
-  color: green;
-}
-.blocks-test__block-3 a:visited {
-  color: red;
-}
 .blocks-test__block-4 {
   border: 1px solid rgb(0, 229, 255);
   display: inline-block;
@@ -552,4 +529,48 @@ body {
   font-weight: 900;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   margin-bottom: 20px;
+}
+.blocks-test__visited {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  background-color: rgba(250, 142, 0, 0.837);
+  border-radius: 30px;
+  border: 2px solid black;
+  box-shadow: 5px 5px 10px 5px black;
+  margin-bottom: 40px;
+}
+.blocks-test__visited a:first-child {
+  font-size: 50px;
+  padding: 15px;
+  color: #42af1d;
+}
+.blocks-test__visited a:first-child:visited {
+  color: #00c3ff;
+}
+.blocks-test__visited a:last-child {
+  font-size: 35px;
+  padding: 15px;
+  color: #42af1d;
+}
+.blocks-test__visited a:last-child:visited {
+  color: #f35500;
+}
+.blocks-test__visited a:nth-child(2) {
+  font-size: 17px;
+  padding: 15px;
+  color: #42af1d;
+}
+.blocks-test__visited a:nth-child(2):visited {
+  color: #000000;
+}
+.blocks-test__visited a:nth-child(3) {
+  font-size: 60px;
+  padding: 15px;
+  color: #42af1d;
+}
+.blocks-test__visited a:nth-child(3):visited {
+  color: #00710f;
 }
